@@ -1,0 +1,134 @@
+// Fonts
+
+$primary_font: 'Barlow Condensed', sans-serif; // Headings, Call-to-actions, Navigation
+$secundary_font: 'Barlow', sans-serif; // Body
+
+// Colors
+$primary_color: #f56f6f;
+$VerDBlue: #242941;
+$DarkBlue: #5a5e71; 
+$GrayBlue: #9fa1ab;
+$GrayLigB: #eef2f6;
+
+body{
+    font-family: $secundary_font;
+    font-size: 20px;
+    background: url(../images/backhead.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+h1, h2, a{
+    font-family: $primary_font;
+}
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+.no-gutter > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+// Header
+header{
+    margin-top: 50px;
+}
+
+.herologo {
+    display: flex;
+    justify-content: left;
+}
+.navbar, a{
+    text-decoration: none;
+    color: $DarkBlue;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+    padding: 20px;
+}
+.navbar, a:last-of-type{
+    padding-left: 90px;
+}
+.navbar, a:last-of-type:hover{
+    color: $GrayLigB;
+}
+
+// Main
+
+main {
+    margin-top: 130px;
+}
+.btn.btn-dark {
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 40px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: $VerDBlue;
+    border: none;
+}
+
+h2 {
+    font-weight: 100;
+    letter-spacing: 10px;
+    color: $DarkBlue;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 9px;
+    margin-top: 59px;
+}
+h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: $VerDBlue;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.content{
+    color: $DarkBlue;
+    margin-top: 45px;
+    max-width: 300px;
+}
+
+.bttnDemo{
+    background-color: $primary_color;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.demo {
+    display: inline-block;
+    padding-top: 70px;
+    padding-left: 25px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: $DarkBlue;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.hero{
+    display: inline-block;
+}
